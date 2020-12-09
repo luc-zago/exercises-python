@@ -1,0 +1,7 @@
+
+a=int(input("Qual é a base do retângulo?:"))
+b=int(input("Qual é a altura do retângulo?:"))
+
+x=a*b
+
+print("A área do retângulo é",x)

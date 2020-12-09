@@ -1,0 +1,19 @@
+
+a=int(input("Digite o número de alunos:"))
+
+while a<=0:
+ print("O número de alunos deve ser maior que 0")
+ a=int(input("Digite o número de alunos:"))
+
+b=1
+
+while a>=b:
+ c=float(input("Digite uma nota:"))
+ while c<0 or c>10:
+  print("A nota deve ser entre 0 e 10")
+  c=float(input("Digite uma nota:"))
+ b=b+1
+
+m=c/a
+
+print("A média da nota dos alunos é",m) 

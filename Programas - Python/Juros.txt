@@ -1,0 +1,7 @@
+# coding: iso-8859-1 -*-
+
+a=int(input("Por favor, digite o número de anos:"))
+
+b=10000*((1+0.08/12)**(12*a))
+
+print("Os juros compostos serão de",b,"%.")

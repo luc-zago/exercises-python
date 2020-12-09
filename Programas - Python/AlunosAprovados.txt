@@ -1,0 +1,39 @@
+
+a=int(input("Digite o número de alunos:"))
+
+while a<=0:
+ print("O número de alunos deve ser maior que 0")
+ a=int(input("Digite o número de alunos:"))
+
+b=1
+
+d=0
+e=0
+f=0
+g=0
+
+while a>=b:
+ c=float(input("Digite a nota final:"))
+ while c<0 or c>10:
+  print("A nota deve ser entre 0 e 10")
+  c=float(input("Digite a nota final:"))
+
+ if c<3:
+  d=d+1
+
+ if c>=3 and c<5:
+  e=e+1
+
+ if c>=5:
+  f=f+1
+
+ if c>8:
+  g=g+1
+
+ b=b+1
+
+print("Total de alunos:",a)
+print("Numero de alunos reprovados:",d)
+print("Numero de alunos de recuperação:",e)
+print("Numero de alunos aprovados:",f)
+print("Numero de alunos com desempenho muito bom:",g)

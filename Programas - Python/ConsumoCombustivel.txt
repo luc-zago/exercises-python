@@ -1,0 +1,8 @@
+# coding: iso-8859-1 -*-
+
+a=int(input("Qual é número de quilômetros percorrido?:"))
+b=int(input("Quantos litros de gasolina foram consumidos?:"))
+
+x=a//b
+
+print("O consumo de gasolina foi de",x,"km/l.")

@@ -1,0 +1,11 @@
+# coding: iso-8859-1 -*-
+
+a=int(input("Por favor, entre com a hora atual, em formato de 24 horas:"))
+
+b=int(input("Por favor, entre com o número de horas em que o alarme deverá tocar:"))
+
+c=b%24
+
+d=(c+a)%24
+
+print("O alarme irá tocar às ",d,"horas.")

@@ -1,0 +1,10 @@
+
+print("Cálculo dos quadrados de uma sequência de números.")
+print("A sequência termina com 0.")
+
+a=int(input("Digite um número:"))
+
+while a!=0:
+ b=a**2
+ print(a,"ao quadrado é",b)
+ a=int(input("Digite um número:"))

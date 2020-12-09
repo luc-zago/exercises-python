@@ -1,0 +1,7 @@
+# coding: iso-8859-1 -*-
+
+c=input("Digite uma temperatura em graus Celsius: ")
+
+f= (float(c)*9/5)+32
+
+print("A temperatura em graus Fahrenheit é", int(f))

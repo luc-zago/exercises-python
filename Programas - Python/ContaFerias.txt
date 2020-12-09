@@ -1,0 +1,18 @@
+# coding: iso-8859-1 -*-
+
+a=int(input("Em qual dia do mês você sairá de férias?:"))
+b=input("Em qual dia da semana você sairá de férias?:")
+c=int(input("Quantos dias você ficará de férias?:"))
+
+if b = "domingo" else 1
+if b = "segunda" else 2
+if b = "segunda-feira" else 2
+if b = "terça" else 3
+if b = "terça-feira" else 3
+if b = "quarta" else 4
+if b = "quarta-feira" else 4
+if b = "quinta" else 5
+if b = "quinta-feira" else 5
+if b = "sexta" else 6
+if b = "sexta-feira" else 6
+if b = "sábado" else 7

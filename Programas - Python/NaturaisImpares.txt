@@ -1,0 +1,11 @@
+# coding: iso-8859-1 -*-
+
+print("Gerador dos n primeiros números ímpares positivos")
+
+n=int(input("Digite o valor de n:"))
+
+i=0
+
+while i < n
+	print(2*i+1)
+	i=i+1
