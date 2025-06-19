@@ -1,7 +1,7 @@
-
 def miniMaxSum(arr):
-    arr.sort()
-    print(sum(arr[:len(arr) - 1]), sum(arr[1:len(arr)]))
+    sorted_array = sorted(arr)
+    print(sum(sorted_array[:-1]), sum(sorted_array[1:]))
 
-if __name__ == '__main__':
-    miniMaxSum([7, 69, 2, 221, 8974])
+
+if __name__ == "__main__":
+    miniMaxSum([1, 2, 3, 4, 5])
